@@ -25,7 +25,7 @@ const UserList = ({data, highlightedIndex = -1}: LeaderboardProps) => {
   const emptyComponent = useMemo(
     () => (
       <Text style={styles.emptyText}>
-        Search an username{'\nor\n'}Tap 1 of 3 show options
+        Enter a username{'\nor\n'}select from the 3 show options.
       </Text>
     ),
     [],
