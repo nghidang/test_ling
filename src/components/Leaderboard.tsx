@@ -159,5 +159,6 @@ const styles = StyleSheet.create({
   optionsContainer: {
     alignItems: 'flex-start',
     marginTop: 5,
+    gap: 3,
   },
 });
